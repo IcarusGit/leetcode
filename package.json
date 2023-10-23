@@ -8,7 +8,8 @@
     "dev": "nodemon try.js",
     "palindrome": "nodemon integerIsPalindrome.js",
     "twoSum": "nodemon addTwoNumbersFromArray.js",
-    "prefix": "nodemon commonPrefix.js"
+    "prefix": "nodemon commonPrefix.js",
+    "indexFirst": "nodemon indexFirstOccurence.js"
   },
   "keywords": [],
   "author": "",
