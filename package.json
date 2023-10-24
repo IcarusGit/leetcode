@@ -9,7 +9,8 @@
     "palindrome": "nodemon integerIsPalindrome.js",
     "twoSum": "nodemon addTwoNumbersFromArray.js",
     "prefix": "nodemon commonPrefix.js",
-    "indexFirst": "nodemon indexFirstOccurence.js"
+    "indexFirst": "nodemon indexFirstOccurence.js",
+    "removeDuplicate": "nodemon removeDuplicatedFromSortedArray.js"
   },
   "keywords": [],
   "author": "",
