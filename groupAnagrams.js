@@ -52,11 +52,9 @@ function groupAnagrams(strs){
 
 let strs = ["eat","tea","tan","ate","nat","bat"]
 
-// groupAnagrams(strs)
+groupAnagrams(strs)
 
 
-let print = console.log
-print("sebastian")
 
 
 /*
