@@ -10,7 +10,18 @@ const factorial = (number) => {
 }
 // 5 * 4 * 3 * 2 * 1
 
-console.log(factorial(4))
+console.log(factorial(5))
+
+
+function recursion(number){
+    let result = 1
+    for (let i = 1; i <= number; i++){
+        result *= i
+    }
+
+    return result
+}
+console.log(recursion(5))
 
 
 
