@@ -12,7 +12,8 @@
     "indexFirst": "nodemon indexFirstOccurence.js",
     "removeDuplicate": "nodemon removeDuplicatedFromSortedArray.js",
     "groupAnagrams": "nodemon groupAnagrams.js",
-    "recursionFactorial": "nodemon recursionFactorial.js"
+    "recursionFactorial": "nodemon recursionFactorial.js",
+    "addTwoReversedArray": "nodemon addTwoReversedArray.js"
   },
   "keywords": [],
   "author": "",
