@@ -14,7 +14,8 @@
     "groupAnagrams": "nodemon groupAnagrams.js",
     "recursionFactorial": "nodemon recursionFactorial.js",
     "addTwoReversedArray": "nodemon addTwoReversedArray.js",
-    "romanToInteger": "nodemon romanToInteger.js"
+    "romanToInteger": "nodemon romanToInteger.js",
+    "validParentheses": "nodemon validParentheses.js"
   },
   "keywords": [],
   "author": "",
