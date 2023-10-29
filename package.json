@@ -15,7 +15,8 @@
     "recursionFactorial": "nodemon recursionFactorial.js",
     "addTwoReversedArray": "nodemon addTwoReversedArray.js",
     "romanToInteger": "nodemon romanToInteger.js",
-    "validParentheses": "nodemon validParentheses.js"
+    "validParentheses": "nodemon validParentheses.js",
+    "removeElement": "nodemon removeElement.js"
   },
   "keywords": [],
   "author": "",
