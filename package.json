@@ -16,7 +16,9 @@
     "addTwoReversedArray": "nodemon addTwoReversedArray.js",
     "romanToInteger": "nodemon romanToInteger.js",
     "validParentheses": "nodemon validParentheses.js",
-    "removeElement": "nodemon removeElement.js"
+    "removeElement": "nodemon removeElement.js",
+    "integerToRoman": "nodemon integerToRoman.js",
+    "reverseInteger": "nodemon reverseInteger.js"
   },
   "keywords": [],
   "author": "",
