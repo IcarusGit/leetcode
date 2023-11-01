@@ -19,7 +19,8 @@ function find(num,target){
             return mid
         }
     }
-    return left
+    return left // or mid
+    // di ko sure hahaha
 
 }
 
