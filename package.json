@@ -19,7 +19,10 @@
     "removeElement": "nodemon removeElement.js",
     "integerToRoman": "nodemon integerToRoman.js",
     "reverseInteger": "nodemon reverseInteger.js",
-    "mostWater": "nodemon containerWithMostWater.js"
+    "mostWater": "nodemon containerWithMostWater.js",
+    "mergeSortedArray": "nodemon mergeSortedArray.js",
+    "searchInsertPosition": "nodemon searchInsertPosition.js",
+    "3sum": "nodemon 3sum.js"
   },
   "keywords": [],
   "author": "",
