@@ -22,7 +22,8 @@
     "mostWater": "nodemon containerWithMostWater.js",
     "mergeSortedArray": "nodemon mergeSortedArray.js",
     "searchInsertPosition": "nodemon searchInsertPosition.js",
-    "3sum": "nodemon 3sum.js"
+    "3sum": "nodemon 3sum.js",
+    "prac": "nodemon prac.js"
   },
   "keywords": [],
   "author": "",
