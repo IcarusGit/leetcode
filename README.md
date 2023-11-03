@@ -6,3 +6,5 @@ npm install after cloning
 *kapag tinatamad kang mag type ng console.log gawin mo to HAHAHAHAH makapython
 let print = console.log
 print("Sebastian Icarus C. Joson")
+
+3
