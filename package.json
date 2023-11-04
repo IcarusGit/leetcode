@@ -24,7 +24,10 @@
     "searchInsertPosition": "nodemon searchInsertPosition.js",
     "pow": "nodemon pow(x,n).js",
     "prac": "nodemon prac.js",
-    "lenLastWord": "nodemon lengthOfLastWord.js"
+    "lenLastWord": "nodemon lengthOfLastWord.js",
+    "plusOne": "nodemon plusOne.js",
+    "addBinary": "nodemon addBinary.js",
+    "sqrt": "nodemon sqrt(x).js"
   },
   "keywords": [],
   "author": "",
