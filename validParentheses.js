@@ -74,6 +74,6 @@ console.log(outputPrinter)
 
 
 // console.log(arr.pop()) // remove the LAST element and then returns the element that was removed
-// console.log(arr.push("baste")) // pushes an element and returns the length after pushing
+// console.log(arr.push("baste")) // pushes an element at last index and returns the length after pushing
 // console.log(arr.shift()) // removes the FIRST element in the array and returns the element you removed
 // console.log(arr.unshift()) // add an element in the beginning or the first index and returns the length after

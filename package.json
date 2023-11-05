@@ -29,7 +29,8 @@
     "addBinary": "nodemon addBinary.js",
     "sqrt": "nodemon sqrt(x).js",
     "moveZeroes": "nodemon moveZeroes.js",
-    "arrWithStackOper": "nodemon arrayWithStackOperation.js"
+    "arrWithStackOper": "nodemon arrayWithStackOperation.js",
+    "isPalindrome": "nodemon validPalindromePhrase.js"
   },
   "keywords": [],
   "author": "",
