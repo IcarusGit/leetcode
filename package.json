@@ -27,7 +27,9 @@
     "lenLastWord": "nodemon lengthOfLastWord.js",
     "plusOne": "nodemon plusOne.js",
     "addBinary": "nodemon addBinary.js",
-    "sqrt": "nodemon sqrt(x).js"
+    "sqrt": "nodemon sqrt(x).js",
+    "moveZeroes": "nodemon moveZeroes.js",
+    "arrWithStackOper": "nodemon arrayWithStackOperation.js"
   },
   "keywords": [],
   "author": "",
