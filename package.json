@@ -31,7 +31,8 @@
     "moveZeroes": "nodemon moveZeroes.js",
     "arrWithStackOper": "nodemon arrayWithStackOperation.js",
     "isPalindrome": "nodemon validPalindromePhrase.js",
-    "buyStock": "nodemon bestTimeToBuyStock.js"
+    "buyStock": "nodemon bestTimeToBuyStock.js",
+    "truncate": "nodemon divideTwoIntegers.js"
   },
   "keywords": [],
   "author": "",
