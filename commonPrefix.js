@@ -29,3 +29,8 @@ var longestCommonPrefix = function(strs) {
 let strs = ["flower","flow","flight"]
 
 console.log(longestCommonPrefix(strs))
+
+
+// let a = "sebastian"
+// console.log(a.substring(1)) // ebastian
+// console.log(a.substring(1,3)) //eb

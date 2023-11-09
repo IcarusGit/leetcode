@@ -33,7 +33,8 @@
     "isPalindrome": "nodemon validPalindromePhrase.js",
     "buyStock": "nodemon bestTimeToBuyStock.js",
     "truncate": "nodemon divideTwoIntegers.js",
-    "missingNumber": "nodemon missingNumber.js"
+    "missingNumber": "nodemon missingNumber.js",
+    "firstAndLast": "nodemon firstAndLastOccurence.js"
   },
   "keywords": [],
   "author": "",
