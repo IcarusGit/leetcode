@@ -35,7 +35,7 @@ function recursionPractice(num, target, left, right){
     // means the left is greater than right so walang index na nahanap kaya negative 1 ang ireturn
     if (left > right) return -1
 
-    // NOTE: WAG KALIMUTANG MAG Math.floor() kase shempre pag odd ang nakuha mong total magkakaroon ng decimal. Wag kang gunggong!
+    // NOTE: WAG KALIMUTANG MAG Math.floor() kase shempre pag odd ang nakuha mong total magkakaroon ng decimal. Wag kang gunggong! hahaha
     let mid = Math.floor((left + right) / 2)
 
     // una shempre kung si current na middle at equals sa target edi return mo na yang si mid index na yan

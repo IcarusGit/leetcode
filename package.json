@@ -35,7 +35,8 @@
     "truncate": "nodemon divideTwoIntegers.js",
     "missingNumber": "nodemon missingNumber.js",
     "firstAndLast": "nodemon firstAndLastOccurence.js",
-    "letterCombination": "nodemon letterCombinationPhoneNum.js"
+    "letterCombination": "nodemon letterCombinationPhoneNum.js",
+    "xor": "nodemon singleNumberXor.js"
   },
   "keywords": [],
   "author": "",
