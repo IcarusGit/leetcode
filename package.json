@@ -36,7 +36,9 @@
     "missingNumber": "nodemon missingNumber.js",
     "firstAndLast": "nodemon firstAndLastOccurence.js",
     "letterCombination": "nodemon letterCombinationPhoneNum.js",
-    "xor": "nodemon singleNumberXor.js"
+    "xor": "nodemon singleNumberXor.js",
+    "reverseWord": "nodemon reverseWordInPhrase.js",
+    "wordPattern": "nodemon wordPattern.js"
   },
   "keywords": [],
   "author": "",
