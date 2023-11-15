@@ -38,7 +38,8 @@
     "letterCombination": "nodemon letterCombinationPhoneNum.js",
     "xor": "nodemon singleNumberXor.js",
     "reverseWord": "nodemon reverseWordInPhrase.js",
-    "wordPattern": "nodemon wordPattern.js"
+    "wordPattern": "nodemon wordPattern.js",
+    "majorityElement": "nodemon majorityElement.js"
   },
   "keywords": [],
   "author": "",
