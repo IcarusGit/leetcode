@@ -60,7 +60,7 @@ function alternative(num, target){
 }
 
 console.log(alternative(num,target))
-
+d
 
 /*
 When you don't return the recursive calls in the else if and else statements, 

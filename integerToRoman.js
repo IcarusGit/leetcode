@@ -72,7 +72,9 @@ var intToRoman = function(num) {
     let str = ""
 
     for(let i = 0; i < romans.length; i++){
-        while(num >= romans[i][0]){ str += romans[i][1]; num -= romans[i][0] }
+        while(num >= romans[i][0]){ 
+            str += romans[i][1]; num -= romans[i][0] 
+        }
     }
     return str
 };

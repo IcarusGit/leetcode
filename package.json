@@ -39,7 +39,8 @@
     "xor": "nodemon singleNumberXor.js",
     "reverseWord": "nodemon reverseWordInPhrase.js",
     "wordPattern": "nodemon wordPattern.js",
-    "majorityElement": "nodemon majorityElement.js"
+    "majorityElement": "nodemon majorityElement.js",
+    "ll": "nodemon linkedListPractice.js"
   },
   "keywords": [],
   "author": "",
