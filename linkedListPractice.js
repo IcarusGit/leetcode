@@ -38,10 +38,68 @@ class LinkedList{
     }
 
     // insert at a certain index
+    insertAtIndex(index, data){        
+        if (index === 0 ){
+            this.head = new Node(data, this.head)
+
+            // pwede ring tawagin nalang yung insert First function bale 
+            // insertFirst(data)
+
+            /* pwedeng ganito pero mas mabilis kapag ginamit yung code sa taas shempre na katulad ng insert first
+            node.next = this.head
+            this.head = node
+            */
+
+            // return para di na irun pa yung mga code sa bottom
+            return;
+        }
+
+        if (index < 0 || index >= this.size){
+            console.log("Index is not existing after insertAtIndex")
+            return
+        }
+
+        let node = new Node(data)
+        let current = this.head, previous;
+        let count = 0
+
+        while (count < index){
+            previous = current
+            current = current.next
+            
+            count++
+        }
+        node.next = current
+        previous.next = node
+
+        this.size++
+    }
 
     // get a certain index
+    getIndex(index){
+        if (index < 0 || index >= this.size){
+            console.log("Index not existing after getIndex")
+            return
+        }
+        let count = 0
+        let current = this.head
+
+        // can also be ====> while(current !== null)
+        while(current){
+            if (count === index){
+                // print ko lang yung laman ng index no need na ireturn unless needed
+                console.log(`Index ${index} has value/data of: ${current.data}`) 
+            }
+
+            current = current.next
+            count++
+        }
+
+        return null
+    }
 
     // clear this linked list
+    
 
     // delete at a certain index
 
@@ -82,8 +140,13 @@ class LinkedList{
 let linkedListSample = new LinkedList()
 linkedListSample.insertFirst(100)
 linkedListSample.insertFirst(200)
+linkedListSample.insertFirst(12345)
 linkedListSample.insertLast(300)
+linkedListSample.insertAtIndex(3, 789)
+linkedListSample.insertAtIndex(-1, 200)
 // linkedListSample.reverse()
+
+linkedListSample.getIndex(-1)
 
 
 // console.log(linkedListSample)
