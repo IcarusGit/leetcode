@@ -99,9 +99,26 @@ class LinkedList{
     }
 
     // clear this linked list
-    
+    clearList(){
+        this.head = null;
+        this.size = 0;
+    }
 
     // delete at a certain index
+    delete(index){
+        if (index < 0 || index >= this.size){
+            console.log(`Index is not existing after delete()`)
+            return
+        }
+        let current = this.head, previous;
+        for(let count = 0; count < index; count++){
+            previous = current
+            current = current.next
+        }
+
+        previous.next = current.next;
+        this.size--
+    }
 
     // print all data or values of each node
     print(){
@@ -144,6 +161,7 @@ linkedListSample.insertFirst(12345)
 linkedListSample.insertLast(300)
 linkedListSample.insertAtIndex(3, 789)
 linkedListSample.insertAtIndex(-1, 200)
+linkedListSample.delete(2)
 // linkedListSample.reverse()
 
 linkedListSample.getIndex(-1)

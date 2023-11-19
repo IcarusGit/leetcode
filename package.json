@@ -40,7 +40,8 @@
     "reverseWord": "nodemon reverseWordInPhrase.js",
     "wordPattern": "nodemon wordPattern.js",
     "majorityElement": "nodemon majorityElement.js",
-    "ll": "nodemon linkedListPractice.js"
+    "ll": "nodemon linkedListPractice.js",
+    "removeDuplicatesLL": "nodemon removeDuplicatesFromLL.js"
   },
   "keywords": [],
   "author": "",
