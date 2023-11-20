@@ -41,7 +41,8 @@
     "wordPattern": "nodemon wordPattern.js",
     "majorityElement": "nodemon majorityElement.js",
     "ll": "nodemon linkedListPractice.js",
-    "removeDuplicatesLL": "nodemon removeDuplicatesFromLL.js"
+    "removeDuplicatesLL": "nodemon removeDuplicatesFromLL.js",
+    "rotateLL": "nodemon rotateLL.js"
   },
   "keywords": [],
   "author": "",
