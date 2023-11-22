@@ -24,6 +24,8 @@ var containsDuplicate = function(nums) {
     // }
     // return false
 
+    // NOTE/IMPORTANT!!!!!  
+    // pwedeng malaman yung length or size ng isang SET gamit yung .size
     return new Set(nums).size !== nums.length
 };
 
