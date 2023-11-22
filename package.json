@@ -42,7 +42,13 @@
     "majorityElement": "nodemon majorityElement.js",
     "ll": "nodemon linkedListPractice.js",
     "removeDuplicatesLL": "nodemon removeDuplicatesFromLL.js",
-    "rotateLL": "nodemon rotateLL.js"
+    "rotateLL": "nodemon rotateLL.js",
+    "llCycle": "nodemon linkedListCycle.js",
+    "llCycle2": "nodemon LLCycle2.js",
+    "targetIndices": "nodemon findTargetIndicesAfterSortingArray.js",
+    "containsDuplicate": "nodemon containsADuplicate.js",
+    "sortLL": "mnodemon sortLL.js",
+    "removeDuplicatesLL2": "nodemon removeDuplicatesInSortedLL2.js"
   },
   "keywords": [],
   "author": "",
