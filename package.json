@@ -48,7 +48,8 @@
     "targetIndices": "nodemon findTargetIndicesAfterSortingArray.js",
     "containsDuplicate": "nodemon containsADuplicate.js",
     "sortLL": "mnodemon sortLL.js",
-    "removeDuplicatesLL2": "nodemon removeDuplicatesInSortedLL2.js"
+    "removeDuplicatesLL2": "nodemon removeDuplicatesInSortedLL2.js",
+    "rotateArray": "nodemon rotateArray.js"
   },
   "keywords": [],
   "author": "",
