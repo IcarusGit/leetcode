@@ -7,4 +7,9 @@ npm install after cloning
 let print = console.log
 print("Sebastian Icarus C. Joson")
 
-3
+/*====================================
+JAVASCRIPT IS RUN TIME WHICH MEANS WHEN YOU EXECUTE THE CODE THAT IS WHEN YOU WILL ONLY SEE THE Error
+
+
+OTHER LANGUAGES WHEN YOU RUN THE FILE THE ERROR WILL DISPLAY AUTOMATICALLY
+====================================*/

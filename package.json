@@ -49,7 +49,14 @@
     "containsDuplicate": "nodemon containsADuplicate.js",
     "sortLL": "mnodemon sortLL.js",
     "removeDuplicatesLL2": "nodemon removeDuplicatesInSortedLL2.js",
-    "rotateArray": "nodemon rotateArray.js"
+    "rotateArray": "nodemon rotateArray.js",
+    "palindromeLL": "nodemon palindromeLL.js",
+    "climbingStairs": "nodemon climbingStairs.js",
+    "isSubsequence": "nodemon isSubsequence.js",
+    "removeLLleetcode": "nodemon removeLinkedListElement.js",
+    "buyStockII": "nodemon bestTimeToBuyAStockII.js"
+
+
   },
   "keywords": [],
   "author": "",
