@@ -54,7 +54,8 @@
     "climbingStairs": "nodemon climbingStairs.js",
     "isSubsequence": "nodemon isSubsequence.js",
     "removeLLleetcode": "nodemon removeLinkedListElement.js",
-    "buyStockII": "nodemon bestTimeToBuyAStockII.js"
+    "buyStockII": "nodemon bestTimeToBuyAStockII.js",
+    "removeTrailingZeroes": "nodemon removeTrailingZeroesFromAString.js"
 
 
   },
