@@ -55,7 +55,8 @@
     "isSubsequence": "nodemon isSubsequence.js",
     "removeLLleetcode": "nodemon removeLinkedListElement.js",
     "buyStockII": "nodemon bestTimeToBuyAStockII.js",
-    "removeTrailingZeroes": "nodemon removeTrailingZeroesFromAString.js"
+    "removeTrailingZeroes": "nodemon removeTrailingZeroesFromAString.js",
+    "splitBySeparator": "nodemon splitStringsBySeparator.js"
 
 
   },
