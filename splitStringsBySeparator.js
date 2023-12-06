@@ -31,11 +31,22 @@ Explanation: In this example the resulting split of "|||" will contain only empt
  * @return {string[]}
  */
 var splitWordsBySeparator = function(words, separator) {
-    // console.log(words.join(separator)) // one.two.three.four.five.six
-    console.log(words.join(separator).split(separator)) // [ 'one', 'two', 'three', 'four', 'five', 'six' ]
-    // return words.join(separator).split(separator).filter(e=>e.length)
+    // console.log(words.join(separator)) 
+    // one.two.three.four.five.six
+    // $easy$$$problem$
+
+
+    // console.log(words.join(separator).split(separator)) 
+    // [ 'one', 'two', 'three', 'four', 'five', 'six' ]
+    // [ '', 'easy', '', '', 'problem', '' ]
+
+
+    // bale yung filter function naman: i-treat mo yung e.length as ====> (e.length > 0)
+    // bale ayun tapos na
+    
+    return words.join(separator).split(separator).filter(e=>e.length)
 };
 
-let words = ["one.two.three","four.five","six"], separator = "."
+let words = ["$easy$","$problem$"], separator = "$"
 
 console.log(splitWordsBySeparator(words, separator))
