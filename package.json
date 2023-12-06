@@ -56,7 +56,8 @@
     "removeLLleetcode": "nodemon removeLinkedListElement.js",
     "buyStockII": "nodemon bestTimeToBuyAStockII.js",
     "removeTrailingZeroes": "nodemon removeTrailingZeroesFromAString.js",
-    "splitBySeparator": "nodemon splitStringsBySeparator.js"
+    "splitBySeparator": "nodemon splitStringsBySeparator.js",
+    "metTheTargetHours": "nodemon numberOfEmployeesWhoMetTheTarget.js"
 
 
   },
