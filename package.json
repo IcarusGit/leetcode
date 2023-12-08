@@ -57,7 +57,8 @@
     "buyStockII": "nodemon bestTimeToBuyAStockII.js",
     "removeTrailingZeroes": "nodemon removeTrailingZeroesFromAString.js",
     "splitBySeparator": "nodemon splitStringsBySeparator.js",
-    "metTheTargetHours": "nodemon numberOfEmployeesWhoMetTheTarget.js"
+    "metTheTargetHours": "nodemon numberOfEmployeesWhoMetTheTarget.js",
+    "isObjectEmpty": "nodemon isObjectEmpty.js"
 
 
   },
