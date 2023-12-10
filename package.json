@@ -58,7 +58,8 @@
     "removeTrailingZeroes": "nodemon removeTrailingZeroesFromAString.js",
     "splitBySeparator": "nodemon splitStringsBySeparator.js",
     "metTheTargetHours": "nodemon numberOfEmployeesWhoMetTheTarget.js",
-    "isObjectEmpty": "nodemon isObjectEmpty.js"
+    "isObjectEmpty": "nodemon isObjectEmpty.js",
+    "seniorCitizen": "nodemon numOfSeniorCitizen.js"
 
 
   },
