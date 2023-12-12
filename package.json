@@ -59,7 +59,8 @@
     "splitBySeparator": "nodemon splitStringsBySeparator.js",
     "metTheTargetHours": "nodemon numberOfEmployeesWhoMetTheTarget.js",
     "isObjectEmpty": "nodemon isObjectEmpty.js",
-    "seniorCitizen": "nodemon numOfSeniorCitizen.js"
+    "seniorCitizen": "nodemon numOfSeniorCitizen.js",
+    "mergeStringAlternate" : "nodemon mergeStringsAlternately.js"
 
 
   },
