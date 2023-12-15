@@ -60,7 +60,8 @@
     "metTheTargetHours": "nodemon numberOfEmployeesWhoMetTheTarget.js",
     "isObjectEmpty": "nodemon isObjectEmpty.js",
     "seniorCitizen": "nodemon numOfSeniorCitizen.js",
-    "mergeStringAlternate" : "nodemon mergeStringsAlternately.js"
+    "mergeStringAlternate" : "nodemon mergeStringsAlternately.js",
+    "altitude": "nodemon highestAltitude.js"
 
 
   },
