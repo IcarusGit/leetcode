@@ -60,12 +60,11 @@
     "metTheTargetHours": "nodemon numberOfEmployeesWhoMetTheTarget.js",
     "isObjectEmpty": "nodemon isObjectEmpty.js",
     "seniorCitizen": "nodemon numOfSeniorCitizen.js",
-    "mergeStringAlternate" : "nodemon mergeStringsAlternately.js",
+    "mergeStringAlternate": "nodemon mergeStringsAlternately.js",
     "altitude": "nodemon highestAltitude.js",
     "kidsCandies": "nodemon greatestNumOfCandies.js",
-    "diffTwoArr": "nodemon differenceOfTwoArrays.js"
-
-
+    "diffTwoArr": "nodemon differenceOfTwoArrays.js",
+    "removeStars": "nodemon removeStars.js"
   },
   "keywords": [],
   "author": "",
