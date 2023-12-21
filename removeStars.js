@@ -26,6 +26,6 @@ var removeStars = function(s) {
     return container.join('')
 };
 
-let s = "leet**cod*e";
+let s = "erase*****"
 
 console.log(removeStars(s))
