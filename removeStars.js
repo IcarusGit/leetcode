@@ -20,6 +20,8 @@ Explanation: The entire string is removed, so we return an empty string.
 var removeStars = function(s) {
     let container = []
     for (let i = 0; i < s.length; i++){
+        // kapag yung container walang laman pa so faulty value pa siya and * yung current index edi mag mag push muna 
+        // kapag naman nasatisfy yung true condition edi mag popop since ayun yung napansin kong logic sa example so kapag may * mag popop yung katabi niya
         s[i] === "*" && container ? container.pop() : container.push(s[i])
     }
 
