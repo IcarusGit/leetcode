@@ -35,8 +35,6 @@ var missingNumber = function(nums) {
     }
 
     return total
-
-
 };
 
 
