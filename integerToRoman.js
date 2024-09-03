@@ -33,11 +33,11 @@ var intToRoman = function(num) {
     // need ko kasi i substract yung mga values hanggang sa mag 0
     for (let i = 0; i < values.length; i++){
         // so sa first i ay magchcheck muna ako kung yung ininput ba na number ay > or equal sa values[i]
-        // if yung 1000 which is the first index ng values for eample ay mas maliit sa num edi imiminus ko ngayon siya so 
+        // if yung 1000 which is the first index ng values for example ay mas maliit sa num edi imiminus ko ngayon siya so 
         // num -= values[i] || then shempre need ko rin mag add ng letter kung ano man mininus ko which is yung M
         // so uulit ng uulit ng uulit mag minus ng 1000 or kung anong index man hanggat num >= values[i] 
         // so what if kunyare 4 nalang value ng num since na subtract na nga 
-        // since equals sila mag miminus parin naman sicne ayun condition ko so magiging 0 na yung num at hindi na tatakbo yung while loop 
+        // since equals sila mag miminus parin naman since ayun condition ko so magiging 0 na yung num at hindi na tatakbo yung while loop 
         // then matatapos nalang din agad yung for loop 
         
         while(num >= values[i]){
@@ -74,6 +74,9 @@ var intToRoman = function(num) {
     for(let i = 0; i < romans.length; i++){
         while(num >= romans[i][0]){ 
             str += romans[i][1]; num -= romans[i][0] 
+            // or ===============
+            str += romans[i][1];
+            num -= romans[i][0];
         }
     }
     return str
