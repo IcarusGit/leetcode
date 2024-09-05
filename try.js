@@ -24,6 +24,14 @@ const formattedDuration = `${hours} hours ${minutes} minutes ${seconds} seconds`
 
 console.log(formattedDuration);
 
+let a = {   'bat': '10', 
+            cat: 20, 
+            'dat': '30', 
+            'eat': '40'
+        };
+
+console.log(a['cat'])
+
 
 
 
