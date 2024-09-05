@@ -134,7 +134,7 @@ class LinkedList{
         // previous
         let previous = null
         let current = this.head
-        // holder
+        // holder lang to para dito ilalagay kada next na ilalagay per step ng pag babaliktad
         let next
 
         while(current){
@@ -144,7 +144,7 @@ class LinkedList{
             current.next = previous
             // dadagdagan lang ng dadagdagan para eto yung magiging head mamaya
             previous = current
-            //so yung next na kukunin shempre edi si next
+            //so yung next na kukunin shempre ed  i si next
             current = next
         }
 
