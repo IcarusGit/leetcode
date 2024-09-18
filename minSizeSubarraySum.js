@@ -40,7 +40,7 @@ var minSubArrayLen = function(target, nums) {
             // kapag lumagpas na bale i-uusog na naten si left pointer para macheck yung other sub array
             // so dahil dyan kung nameet na si target shempre uusog na tayo ng sub array pero...
             
-
+            // FIRST KUNIN MO MUNA SHEMPRE YUNG SIZE NUNG CURRENT SUB ARRAY BEFORE ANYTHING ELSE
             // icheck ngayon naten si value since eto naman talaga yung irereturn naten
             // compare naten si minVal which is infinity para at first eh parang 9999999 lang muna siya 
             // SO BAKIT right + 1 - left OR right - left + 1 ---> KUNYARE SA SUB ARRAY ANG LENGTH ANG HINAHANAP RIGHT SO SI RIGHT ANG DULO...
