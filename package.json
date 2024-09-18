@@ -65,7 +65,8 @@
     "kidsCandies": "nodemon greatestNumOfCandies.js",
     "diffTwoArr": "nodemon differenceOfTwoArrays.js",
     "removeStars": "nodemon removeStars.js",
-    "longConSeq": "nodemon longestConsecutiveSequence.js"
+    "longConSeq": "nodemon longestConsecutiveSequence.js",
+    "minSizeSubArrSum": "nodemon minSizeSubarraySum.js"
   },
   "keywords": [],
   "author": "",
