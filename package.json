@@ -66,7 +66,8 @@
     "diffTwoArr": "nodemon differenceOfTwoArrays.js",
     "removeStars": "nodemon removeStars.js",
     "longConSeq": "nodemon longestConsecutiveSequence.js",
-    "minSizeSubArrSum": "nodemon minSizeSubarraySum.js"
+    "minSizeSubArrSum": "nodemon minSizeSubarraySum.js",
+    "maxSubArr": "nodemon maxSubarray.js"
   },
   "keywords": [],
   "author": "",
