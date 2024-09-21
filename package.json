@@ -67,7 +67,8 @@
     "removeStars": "nodemon removeStars.js",
     "longConSeq": "nodemon longestConsecutiveSequence.js",
     "minSizeSubArrSum": "nodemon minSizeSubarraySum.js",
-    "maxSubArr": "nodemon maxSubarray.js"
+    "maxSubArr": "nodemon maxSubarray.js",
+    "sortArrIncFreq": "nodemon sortArrayByIncreasingFrequency.js"
   },
   "keywords": [],
   "author": "",
