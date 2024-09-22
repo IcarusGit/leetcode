@@ -43,6 +43,7 @@ var merge = function(nums1, m, nums2, n) {
     while (last2 >= 0){
         // NOTE: di ko na chineck yung kung last1 ba ay negative since diba magiging undefined din siya
         // NOTE: dahil ang una namang magiging undefined ay si last2 
+        // Input: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
 
         // so ang nangyayare dito chinecheck ko kung yung last index ba ni nums2 ay higher sa last index ni nums1[m-1]
         // kung mas mataas si nums1 shempre need natin siya ilagay sa dulo hence nums1[main--]
