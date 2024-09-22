@@ -39,7 +39,7 @@ var merge = function(nums1, m, nums2, n) {
 
     // una kukunin ko lahat ng index ni nums2 since yung mga array naman sa parameter ay naka sort na ng ascending so shempre si last index ng nums2 ang highest
     // bale ang condition ko dito ay last2 >= 0 ===> this is because kapag ang -1 na index ng nums2 ay === undefined
-    // so shempre kung undefined edi stop na yung katarantaduhan na to
+    // so shempre kung undefined edi stop na yung kalokohang 'to hahahaa
     while (last2 >= 0){
         // NOTE: di ko na chineck yung kung last1 ba ay negative since diba magiging undefined din siya
         // NOTE: dahil ang una namang magiging undefined ay si last2 
