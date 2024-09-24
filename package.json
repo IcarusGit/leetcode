@@ -68,7 +68,8 @@
     "longConSeq": "nodemon longestConsecutiveSequence.js",
     "minSizeSubArrSum": "nodemon minSizeSubarraySum.js",
     "maxSubArr": "nodemon maxSubarray.js",
-    "sortArrIncFreq": "nodemon sortArrayByIncreasingFrequency.js"
+    "sortArrIncFreq": "nodemon sortArrayByIncreasingFrequency.js",
+    "sortWithoutInbuilt": "nodemon sortArrayWOInbuiltMethod.js"
   },
   "keywords": [],
   "author": "",
