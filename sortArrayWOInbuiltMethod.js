@@ -22,7 +22,7 @@ var sortArray = function(nums) {
     // so bale gagamit tayo ng RECURSION
     // and idea ay hahatiin natin ng hahatiin si nums hanggat sa makarating siya sa dulo where in magiging array siya pero 1 element lang
 
-    // so now kunin ko muna si gitna
+    // so now kunin ko muna si gitna === NOTE: need na mag math.floor ha kasi pano kung odd number diba so ayun
     let mid = Math.floor(nums.length / 2);
 
     // NOTE: SA LEFT AND RIGHT NEED MO TALAGA SIYANG TAWAGIN GAMIT YUNG sortArray() na function para mag recursion
