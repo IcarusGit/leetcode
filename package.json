@@ -69,7 +69,8 @@
     "minSizeSubArrSum": "nodemon minSizeSubarraySum.js",
     "maxSubArr": "nodemon maxSubarray.js",
     "sortArrIncFreq": "nodemon sortArrayByIncreasingFrequency.js",
-    "sortWithoutInbuilt": "nodemon sortArrayWOInbuiltMethod.js"
+    "sortWithoutInbuilt": "nodemon sortArrayWOInbuiltMethod.js",
+    "longestSubWORepChar": "nodemon longestSubstringWithoutRepeatingChar.js"
   },
   "keywords": [],
   "author": "",
