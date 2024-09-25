@@ -70,7 +70,8 @@
     "maxSubArr": "nodemon maxSubarray.js",
     "sortArrIncFreq": "nodemon sortArrayByIncreasingFrequency.js",
     "sortWithoutInbuilt": "nodemon sortArrayWOInbuiltMethod.js",
-    "longestSubWORepChar": "nodemon longestSubstringWithoutRepeatingChar.js"
+    "longestSubWORepChar": "nodemon longestSubstringWithoutRepeatingChar.js",
+    "findNumNotInArr": "nodemon FindAllNumbersDisappearedinArray.js"
   },
   "keywords": [],
   "author": "",
