@@ -23,15 +23,18 @@ There are 0 employees who met the target.
  * @return {number}
  */
 var numberOfEmployeesWhoMetTarget = function(hours, target) {
+    // finilter kung ilan per index yung nakahit ng target so it means either equal or greater than sa target
     return hours.filter(hour => hour >= target).length
 };
 
 
 // alternative
 function numbersWhoMet(hours, target){
+    // alternative solution lang ito so ang nangyare nag loop lang then naka if statement lang to check kung nahit ba ang target
     let met = 0
 
     for (let i = 0; i < hours.length; i++){
+        // then shempre kapag na hit si target edi increment yung met since ayun yung tracker naten ng kung ilan naka hit
         if(hours[i] >= target) met++
     }
 

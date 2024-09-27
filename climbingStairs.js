@@ -38,9 +38,50 @@ var climbStairs = function(n) {
 
     // etong si one and dulong one ay equals to index 0
     return one
+
+
+    /* 
+    so ngayon pwede dito si alternative sa baba or eto:
+    // so dito bale imagine and array ay [1,1,2,3,5,8]
     
+    let indexZero = 1
+    let indexOne = 1
+
+    for (let i = 2; i <=n; i++){
+        [indexZero, indexOne] = [indexOne, indexOne + indexZero]
+    }
+    return indexOne;
+
+    */
 };
 
 let n = 5
 
 console.log(climbStairs(n))
+
+
+
+// =============================================================================================================================
+// POSSIBLE SOLUTION RIN TO BALE diba kung ano ang n bale aalamin yung steps nun pero magandang diskarte ay mag umpisa sa n or sa dulo diba since
+// ang answer ay n-1 plus n-2
+// so eto siya
+// NOTE: SO ETONG ALTERNATIVE NA TO AY INIISA ISA NIYA TALAGA FROM THE START INA ADD ADD LANG 
+// BALE ANG NANGYARE DITO SA ALTERNATIVE EH NAG ARRAY PA KO SO INISTORE KO ISA ISA UNLIKE SA TAAS NA NAG PAPALITAN LANG NG VALUE LIKE NAG SWITCH LANG
+
+// let alt = (n) => {
+//     let arr = []
+//     // arr[1] = 1
+//     // arr[2] = 2
+//     let one = 1
+//     let two = 2
+
+//     for (let i = 3; i <=n; i++){
+//         // arr[i] = arr[i-1] + arr[i-2];
+//         [one, two] = [two, two + one]
+//     }
+
+//     // return arr[n];
+//     return two;
+// }
+// 
+// console.log(alt(n))
