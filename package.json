@@ -72,7 +72,8 @@
     "sortWithoutInbuilt": "nodemon sortArrayWOInbuiltMethod.js",
     "longestSubWORepChar": "nodemon longestSubstringWithoutRepeatingChar.js",
     "findNumNotInArr": "nodemon FindAllNumbersDisappearedinArray.js",
-    "praktisan": "nodemon praktisan.js"
+    "praktisan": "nodemon praktisan.js",
+    "squareEveryDigit": "nodemon squareEveryDigit.js"
   },
   "keywords": [],
   "author": "",
