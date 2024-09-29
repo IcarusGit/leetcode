@@ -72,7 +72,7 @@
     "sortWithoutInbuilt": "nodemon sortArrayWOInbuiltMethod.js",
     "longestSubWORepChar": "nodemon longestSubstringWithoutRepeatingChar.js",
     "findNumNotInArr": "nodemon FindAllNumbersDisappearedinArray.js",
-    "praktisan": "nodemon praktisan.js",
+    "receivingSendingHackerRank": "nodemon receivingSendingHackerRank.js",
     "squareEveryDigit": "nodemon squareEveryDigit.js"
   },
   "keywords": [],
