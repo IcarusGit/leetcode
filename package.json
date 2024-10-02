@@ -73,7 +73,9 @@
     "longestSubWORepChar": "nodemon longestSubstringWithoutRepeatingChar.js",
     "findNumNotInArr": "nodemon FindAllNumbersDisappearedinArray.js",
     "receivingSendingHackerRank": "nodemon receivingSendingHackerRank.js",
-    "squareEveryDigit": "nodemon squareEveryDigit.js"
+    "squareEveryDigit": "nodemon squareEveryDigit.js",
+    "bitCounting": "nodemon bitCounting.js",
+    "sortByNumInString": "nodemon sortByNumInString.js"
   },
   "keywords": [],
   "author": "",
