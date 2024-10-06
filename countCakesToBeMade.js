@@ -10,12 +10,17 @@ function cakes(recipe, available) {
     let rMin = Infinity;
     
     for (let ingedient in recipe){
+        // nag loop lang ako sa recipe since yun yung required e so per ingredient ng recipe ang ichecheck ko
+
+        //so eto lang edge case check muna: kapag wala yung ingredient na yon sa available edi pass na
         if (!available[ingedient]) return 0;
-        
+        // edge case check: kapag mas marami yugn recipe kesa sa available edi olats na
         if (recipe[ingedient] > available[ingedient]) return 0;
         
+        // ngayon mag didivide lang ako nung nasa available at nung mismong recipe since pag dinivide ko sila dun ko malalaman kung ilang ang possible pieces na magawa ko
         let cakeCounter = Math.floor(available[ingedient] / recipe[ingedient]);
         
+        // shempre kung saang ingredients yung pinaka onti edi ayun yugn ibabalik kong output
         rMin = Math.min(rMin, cakeCounter);
     }
     
