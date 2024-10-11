@@ -42,7 +42,7 @@ var climbStairs = function(n) {
 
     /* 
     so ngayon pwede dito si alternative sa baba or eto:
-    // so dito bale imagine and array ay [1,1,2,3,5,8]
+    // so dito bale imagine ang array ay [1,1,2,3,5,8]
     
     let indexZero = 1
     let indexOne = 1
