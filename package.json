@@ -75,7 +75,9 @@
     "receivingSendingHackerRank": "nodemon receivingSendingHackerRank.js",
     "squareEveryDigit": "nodemon squareEveryDigit.js",
     "bitCounting": "nodemon bitCounting.js",
-    "sortByNumInString": "nodemon sortByNumInString.js"
+    "sortByNumInString": "nodemon sortByNumInString.js",
+    "coinChange": "nodemon coinChange.js",
+    "splitArray": "nodemon splitTheArray.js"
   },
   "keywords": [],
   "author": "",
