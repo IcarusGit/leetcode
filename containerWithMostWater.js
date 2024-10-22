@@ -21,7 +21,7 @@ var maxArea = function(height) {
 
     while (left < right){
         // get the lower height of the two and ayun yung magiging LENGTH or HEIGHT mo
-        // then DIDIVIDE mo siya shempre SA WIDTH which is yung HABA
+        // then MUMULTIPLY mo siya shempre SA WIDTH which is yung HABA
         // so yung width magiging yung (index ng nasa pinaka right) minus (index na nasa pinakaleft)
         let getAllPossibleArea = Math.min(height[left], height[right]) * (right - left)
         // so shempre kukunin ko nga diba lahat ng mga possible na Area... kada loop kukunin ko lang yung maximum kaya math.max
