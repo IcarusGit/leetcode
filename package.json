@@ -78,7 +78,8 @@
     "sortByNumInString": "nodemon sortByNumInString.js",
     "coinChange": "nodemon coinChange.js",
     "splitArray": "nodemon splitTheArray.js",
-    "trappingRainWater": "nodemon trappingRainWater.js"
+    "trappingRainWater": "nodemon trappingRainWater.js",
+    "twoSumII": "nodemon twoSumII.js"
 
   },
   "keywords": [],
