@@ -79,7 +79,8 @@
     "coinChange": "nodemon coinChange.js",
     "splitArray": "nodemon splitTheArray.js",
     "trappingRainWater": "nodemon trappingRainWater.js",
-    "twoSumII": "nodemon twoSumII.js"
+    "twoSumII": "nodemon twoSumII.js",
+    "balloon": "nodemon maxNumOfBalloon.js"
 
   },
   "keywords": [],
